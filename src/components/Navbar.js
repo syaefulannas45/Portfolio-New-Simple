@@ -7,7 +7,7 @@ const Navbar = () => {
       <section id="navbar">
         <div className="w-full justify-between bg-pastel-700 py-6 px-4 lg:flex lg:px-[150px] items-center">
           <div className="flex justify-between text-2xl font-bold text-slate-700 lg:w-2/4 items-center">
-            <div>Syn Coder</div>
+            <div>Syn <span className="text-pastel-900">Coder</span></div>
             <div className="lg:hidden text-3xl" onClick={() => setToggle(!toggle)}>
               <i
                 className={`fa-solid fa-bars ${toggle ? "hidden" : "block"}`}
