@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section id="about" className="bg-pastel-600 pt-[130px] lg:pt-0">
-        <div className=" flex h-screen w-full flex-col-reverse items-center  px-4 lg:flex-row lg:px-[150px]">
+      <section id="about" className="bg-pastel-600 pt-[50px] lg:pt-0">
+        <div className="flex h-screen w-full flex-col-reverse items-center  px-4 lg:flex-row lg:px-[150px]">
           <div className="relative lg:w-2/4">
             <img
               src="images/blob.svg"
@@ -42,11 +42,11 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex justify-center lg:w-2/4">
+          <div className="lg:relative flex justify-center lg:w-2/4">
             <img
               src="images/about.jpg"
               alt="me"
-              className="relative z-10 h-[300px] w-[300px] rounded-full lg:h-[400px] lg:w-[400px]"
+              className="lg:relative lg:z-10 h-[300px] w-[300px] rounded-full lg:h-[400px] lg:w-[400px]"
             />
             <img
               src="images/blob2.svg"
