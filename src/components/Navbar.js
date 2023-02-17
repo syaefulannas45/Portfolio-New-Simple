@@ -23,10 +23,10 @@ const Navbar = () => {
             } border-t lg:border-none`}
           >
             <li>
-              <a href="/">About Me</a>
+              <a href="#about">About Me</a>
             </li>
             <li>
-              <a href="/">Project</a>
+              <a href="#project">Project</a>
             </li>
           </ul>
         </div>
