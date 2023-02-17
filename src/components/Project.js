@@ -8,7 +8,7 @@ const Project = () => {
           <p className="mb-10 lg:text-center text-3xl font-semibold text-slate-700 pt-10 lg:pt-0">
             My <span className="text-pastel-900">Project</span>
           </p>
-          <div className="lg:grid w-full lg:grid-cols-3 lg:gap-3 bg-pastel-1000 py-10 px-10 space-y-5 lg:space-y-0 flex flex-col justify-center">
+          <div className="lg:grid w-full lg:grid-cols-3 lg:gap-3 bg-pastel-1000 py-10 px-10 space-y-5 lg:space-y-0 flex flex-col justify-center rounded-xl">
           <div className="flex flex-col items-center justify-center rounded-2xl bg-pastel-600 lg:w-[90%]">
               <img
                 src="images/project/project-1.png"
